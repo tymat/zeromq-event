@@ -1,0 +1,16 @@
+*.swp
+*.swo
+*.swn
+
+*.rbc
+*~
+
+pkg
+
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
+.rvmrc
+coverage/
+*test*/
