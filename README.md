@@ -53,7 +53,7 @@ flag api changes but be aware that small changes can still occur between release
 ## Example ##
 ```ruby
 require 'rubygems'
-require 'em-zeromq'
+require 'zeromq-event'
 
 class EMTestPullHandler
   attr_reader :received

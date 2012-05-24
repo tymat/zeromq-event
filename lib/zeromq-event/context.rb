@@ -18,15 +18,12 @@ module EventMachine
         end
       end
       
-      ##
-      # Create a socket in this context.
-      # 
       # @param [Integer] socket_type One of ZMQ::REQ, ZMQ::REP, ZMQ::PULL, ZMQ::PUSH,
       #   ZMQ::ROUTER, ZMQ::DEALER
       # 
       # @param [Object] handler an object which respond to on_readable(socket, parts)
       #   and can respond to on_writeable(socket)
-      # 
+
       def socket(socket_type, handler = nil)
         zmq_socket = @context.socket(socket_type)
         

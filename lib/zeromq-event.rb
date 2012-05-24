@@ -1,7 +1,7 @@
 require 'eventmachine'
 require 'ffi-rzmq'
 
-module EmZeromq
+module ZeromqEvent
 
   # :stopdoc:
   LIBPATH = ::File.expand_path(::File.dirname(__FILE__)) + ::File::SEPARATOR
@@ -57,5 +57,5 @@ module EmZeromq
 
 end  # module EmZeromq
 
-EmZeromq.require_all_libs_relative_to(__FILE__)
+ZeromqEvent.require_all_libs_relative_to(__FILE__)
 

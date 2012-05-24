@@ -1,6 +1,6 @@
 require 'rubygems'
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'em-zeromq'
+require 'zeromq-event'
     
 Thread.abort_on_exception = true
 

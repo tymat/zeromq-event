@@ -8,7 +8,7 @@ if ENV['COVERAGE']
 end
 
 require File.expand_path(
-    File.join(File.dirname(__FILE__), %w[.. lib em-zeromq]))
+    File.join(File.dirname(__FILE__), %w[.. lib zeromq-event]))
 
 def run_reactor(time=0.2,&block)
   Thread.new do

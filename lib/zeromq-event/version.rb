@@ -1,4 +1,4 @@
 # encoding: utf-8
-module EmZeromq
+module ZeromqEvent
   VERSION = "0.3.0"
 end
